@@ -1,0 +1,57 @@
+"""Your Task is to translate the given text from Spanish to English:
+
+ 
+
+            Task:
+
+ 
+
+            Step 1: Translate the given text to English, ensuring that the meaning (semantics) of the original text is preserved as closely as possible.
+
+            Step 2: Do not translate any text containing "trademark symbols" (™ or ®). Keep these parts as is.
+
+ 
+
+            Below is the text for translation"""
+
+ 
+
+'''Task Description:
+
+ 
+
+                    You are provided with two texts: an original text and its translated version. Your task is to compare the two texts line by line and identify any semantic inconsistencies. Follow the steps below:
+
+ 
+
+                    Line-by-Line Comparison: Compare each line of the original text with the corresponding line in the translated text.
+
+ 
+
+                    Highlight Inconsistencies: Identify and highlight any semantic inconsistencies between the lines.
+
+ 
+
+                    Remarks and Scoring: For each inconsistent line:
+
+ 
+
+                    Provide a remark explaining the nature of the inconsistency.
+
+                    Assign a severity score ranging from 0 to 1, where 1 indicates the most severe inconsistency.
+
+                    Output Format: Ensure that the output is presented in the following structured JSON format for each comparison:
+
+ 
+
+                    <JSON>
+
+                        "Line1": "(Original line)",
+
+                        "Line2": "(Translated line)",
+
+                        "Remark": "(Description of inconsistency)",
+
+                        "Score": (0-1 severity score)
+
+                    </JSON>'''
